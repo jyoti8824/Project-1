@@ -40,7 +40,7 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar
-          title="TextUtils"
+          title="TextEditor"
           aboutText="About "
           mode={mode}
           toggleMode={toggleMode}
@@ -55,7 +55,7 @@ function App() {
               element={
                 <TextForm
                   showAlert={showAlert}
-                  heading="TextUtils - Word Counter, Character Counter"
+                  heading="TextEditor - Word Counter, Character Counter"
                   mode={mode}
                 />
               }
